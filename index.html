@@ -9,10 +9,12 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-<h1>Hello World!</h1>
-
-<script src="script.js"></script>
+<body onload = "onload();">
+  <b>To whom do you want to give a greeting? <b><br>
+  <input type="text" name="enter" class="enter" value="" id="inputGreetingPerson"/>
+  <input type="button" value="Abschicken" onclick="printCustomizedGreeting();"/>
+  <h1 id = 'greeting'></h1>
+  <script src="script.js"></script>
 </body>
 
 </html>
