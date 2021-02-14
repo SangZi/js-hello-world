@@ -1,10 +1,5 @@
 let inputGreetingPerson = null;
 
-/*
-function changeMessage(name) {
-    message = 'Hallo ' + name;
-}
-*/
 function onload() { 
     inputGreetingPerson = document.getElementById('inputGreetingPerson');
 }
